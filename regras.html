@@ -4,6 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MeuSistema - Atributos</title>
+    <style>
+      body {
+        margin-right: 80px;
+      }
+      .topo {
+        position: fixed;
+        right: -60px;
+        bottom: 10%;
+        width: 8em;
+        /* margin-top: -2.5em; */
+      }
+      .topo a {
+        background-color: #ddd;
+        border-radius: 20px;
+        color: black;
+        text-decoration: none;
+        font-weight: 700;
+        font-family: sans-serif;
+      }
+    </style>
   </head>
 
   <body>
@@ -25,10 +45,169 @@
 
     <hr />
 
-    <main></main>
+    <main>
+      <!-- Navegação -->
+      <div>
+        <nav>
+          <h3 id="navegacao">Menu de Navegação</h3>
+          <ul>
+            <li>
+              <a href="#testes">Testes</a>
+              <ul>
+                <li></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- fim navegação -->
+      <div>
+        <h1>Regras Gerais</h1>
+
+        <p>
+          Sempre que uma criatura tenta realizar uma ação que tem chance de
+          sucesso ou falha, ela faz um Teste ou uma Salvaguarda para determinar
+          o resultado da tentativa. O tipo de ação que a criatura está tentando
+          realizar determina se ela faz um Teste ou uma Salvaguarda. Quando uma
+          criatura faz um Teste ou Salvaguarda, ela rola um d20 e adiciona
+          quaisquer bônus relevantes que são determinados pelo tipo de Teste ou
+          Salvaguarda.
+        </p>
+
+        <p>
+          <b>Testes</b>: Quando um jogador inicia uma ação contra outra criatura
+          ou obstáculo, o mestre pode pedir para fazer um Teste para determinar
+          se a atividade é bem-sucedida. O mestre também pode solicitar um Teste
+          quando duas ou mais criaturas estão competindo em habilidades entre
+          si.
+        </p>
+
+        <p>
+          <b>Salvaguardas</b>: Quando um jogador reage a um efeito que está
+          sendo imposto a eles, o mestre pode pedir para fazer uma Salvaguarda
+          para determinar se eles são bem-sucedidos em resistir ao efeito.
+        </p>
+        <p>
+          <b>Exemplo</b>: Um Teste de Força seria para ver se você consegue
+          levantar a pedra pesada que está lá parada, enquanto uma Salvaguarda
+          de Força seria para ver se você consegue parar uma pedra pesada
+          rolando morro abaixo em sua direção!
+        </p>
+      </div>
+
+      <div>
+        <h2>Tipos de Testes</h2>
+        <hr />
+        <p>
+          Existem vários tipos de testes que um Mestre de Jogo pode pedir a uma
+          criatura, como um teste de Ataque ao atacar com uma Arma, um teste de
+          Magia ao conjurar um Feitiço, um teste de perícia específica ao
+          realizar um teste de perícia, um teste de Ofício específica ao
+          realizar um teste de expertise profissional, ou um teste de Atributo
+          específico ao realizar um teste de aptidão que não se beneficia de
+          habilidade ou expertise.
+        </p>
+
+        <p>
+          <b>Testes de Atributo</b>: Quando uma criatura tenta realizar uma
+          atividade que não se beneficia de Maestria, ela faz um certo tipo de
+          teste de Atributo, como um teste de Força para levantar um objeto
+          muito pesado ou um teste de Inteligência para lembrar de uma conversa
+          que tiveram.
+        </p>
+
+        <p>
+          <b>Testes de Ataque</b>: Quando uma criatura tenta acertar um alvo com
+          um Ataque Desarmado ou com uma Arma, ela faz um teste de Ataque para
+          determinar se o ataque acerta o alvo.
+        </p>
+
+        <p>
+          <b>Testes de Magia</b>: Quando uma criatura conjura um Feitiço, ela
+          faz um teste de Magia para determinar a potência do Feitiço ou se o
+          Feitiço acerta o alvo.
+        </p>
+
+        <p>
+          <b>Testes de Perícia</b>: Quando uma criatura tenta um teste de
+          perícia, ela pode fazer um teste de perícia, como um teste de
+          Influência para determinar o quão convincente é seu argumento ou um
+          teste de Ladinagem para determinar se pode pegar um item sem ser
+          notada. Consulte a Lista de Perícias para mais informações.
+        </p>
+
+        <p>
+          <b>Testes de Ofício</b>: Quando uma criatura tenta um teste de
+          expertise profissional, ela pode fazer um teste de Ofício, como um
+          teste de Ferreiro para determinar o resultado de seus esforços em
+          criar uma Arma ou um teste de Teatro para determinar como o público
+          responde à sua performance.
+        </p>
+
+        <p>
+          <b>Testes de Idioma</b>: Estas são usadas para ver o quão bem você
+          pode ler, escrever ou falar usando um idioma em que você tenha
+          Maestria Limitada na Linguagem. Você adiciona seu Carisma ou
+          Inteligência (à sua escolha) a esses testes.
+        </p>
+      </div>
+      <div>
+        <h2>Tipos de Salvaguarda</h2>
+        <hr />
+        <p>
+          Uma criatura pode fazer uma Salvaguarda para resistir a um efeito
+          imposto contra ela por outra criatura, uma armadilha ou um ambiente
+          perigoso. O tipo de efeito determinará qual tipo de Salvaguarda a
+          criatura faz: Poder, Agilidade, Carisma ou Inteligência.
+        </p>
+        <p>
+          <b>Salvaguarda de Força</b>: Resistir a efeitos que te empurram, te
+          derrubam ou te esmagam.
+        </p>
+
+        <p>
+          <b>Salvaguarda de Agilidade</b>: Resistir a efeitos que fazem você
+          perder o equilíbrio ou que podem ser evitados ao se esquivar com
+          sucesso para fora do caminho.
+        </p>
+        <p>
+          <b>Salvaguarda de Carisma</b>: Resistir a efeitos que tentam dominar
+          sua mente ou alterar suas emoções.
+        </p>
+        <p>
+          <b>Salvaguarda de Inteligência</b>: Resistir a efeitos que tentam ler
+          seus pensamentos, alterar suas memórias, confundir você ou usar
+          ilusões para enganar seus sentidos.
+        </p>
+      </div>
+
+      <div>
+        <h2 id="testes">Testes</h2>
+        <h2>Testes de Atributo</h2>
+        <hr />
+        <p>
+          Quando uma criatura realiza uma tarefa que não se beneficia da
+          Maestria, então ela faz um Teste de Atributo (Poder, Agilidade,
+          Carisma ou Inteligência). Para fazer um Teste de Atributo, role um d20
+          + Atributo associado ao resultado.
+        </p>
+        <p><b>Fórmula de Teste de Atributo:</b> D20 + Atributo</p>
+        <p>
+          <b>Exemplo</b>: Um Mestre pode pedir para um Jogador fazer um teste de
+          Agilidade para ver o quão flexível eles são ou um teste de Carisma
+          para determinar a primeira impressão que eles causam ao entrar em um
+          quarto. Se o Carisma do Jogador for 4, ele rola um d20 e adicionam 4
+          ao resultado.
+        </p>
+      </div>
+    </main>
 
     <hr />
 
-    <footer></footer>
+    <footer>
+      <div class="topo">
+        <a href="#navegacao" style="padding: 15px; position: fixed">Menu</a>
+      </div>
+    </footer>
   </body>
 </html>
